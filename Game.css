@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin; 
+    border-radius: 1.5rem;
+    border: none;
+    color: black;
+    font-size: 10vmin;
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(3px);
+}
+.game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.container
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body
+{
+    text-align: center;
+    background-image: url(https://images.wallpaperscraft.com/image/single/mountains_peaks_landscape_1186411_2560x1600.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#resetbutton{
+    font-size: 20px;
+    color:lightblue;
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 1rem;
+    border: none;
+    height: 30px;
+    width:150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#newgame{
+    font-size: 20px;
+    color:lightblue;
+    background: rgba(0,0,0,0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 1rem;
+    border: none;
+    height: 30px;
+    width:150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.msg-container {
+    height: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.msg
+{
+    font-size: 40px;
+    color: lightblue;
+}
+.hide{
+    display: none;
+}
